@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 70vw;
+    height: 75vh;
+    background: #fff;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.demo{
+    width: 50vw;
+    height: 30vh;
+    background: white;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px 15px;
+    text-align: left;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.enter{
+    width: 60px;
+}
+
+button{
+     padding: 5px 10px 5px 10px;
+     background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+     border: none;
+     cursor: pointer;
+}
+
+#generatedPasword{
+  text-align: center;
+
+}
